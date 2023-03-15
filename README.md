@@ -42,7 +42,7 @@ Add `enctype='multipart/form-data'` to your form
 
 #### Using Ajax
 
-Convert body info `new FormData` and use the code below:
+Convert body info `new FormData()` and use the code below:
 
 ```javascript
 fetch("/api/meta", {
@@ -53,4 +53,4 @@ fetch("/api/meta", {
   .then((json) => console.log(json));
 ```
 
-**Note** And email wil be sent to the email address provided in the body of this request.
+**Note:** And email wil be sent to the email address provided in the body of this request.
