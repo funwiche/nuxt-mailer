@@ -17,8 +17,9 @@ npm install
 Create a `.env` file and add the following variables:
 
 ```bash
-EMAIL_ADDRESS= #Email address. Use email from your website
-EMAIL_SECRET= # Password
+EMAIL_ADDRESS= #Smtp Email address.
+EMAIL_SECRET= #Smtp Password
+### Use email from your website
 ```
 
 ## Development Server
