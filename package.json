@@ -1,0 +1,27 @@
+{
+  "name": "nuxt-mailer",
+  "version": "1.0.0.1",
+  "description": "Send emails from your Nuxtjs App using Nodemailer",
+  "author": "funwi che",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxtjs/i18n": "^8.0.0-beta.7",
+    "nuxt": "^3.2.2",
+    "nuxt-simple-sitemap": "^0.5.8"
+  },
+  "dependencies": {
+    "@mdi/font": "^7.1.96",
+    "@types/nodemailer": "^6.4.7",
+    "nodemailer": "^6.9.1",
+    "sass": "^1.57.1",
+    "vuetify": "^3.1.0"
+  }
+}
